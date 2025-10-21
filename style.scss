@@ -1,0 +1,166 @@
+@font-face {
+  font-family: google;
+  src: url(./ProductSans-Regular.ttf);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: #fff;
+  font-family: google;
+  height: 100%;
+}
+
+header {
+ position: fixed;
+ z-index: 10000;
+  background-color: rgb(67, 60, 60);
+
+  width: 100%;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1.5rem;
+    background-color: whitesmoke;
+    font-size: 0.8rem;
+    height: 86px;
+    font-weight: 550;
+    width: 100%;
+
+
+
+    .centre {
+      display: none;
+
+      a {
+        padding: 1.5rem;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: black;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+
+      button {
+        background-color: #0468D7;
+        color: white;
+        border-radius: 2rem;
+        border: none;
+        padding: 0.8rem 1rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    .menu {
+      font-size: 1.2rem;
+
+    }
+  }
+
+
+
+  @media (min-width:1364px) {
+    nav {
+      padding: 0rem 3.2rem;
+
+      .centre {
+        display: inline-block;
+      }
+
+      .menu {
+        display: none;
+      }
+    }
+  }
+}
+
+
+main {
+  width: 100%;
+
+  .first {
+    background: linear-gradient(35deg, #fcdde8, #f3fcff 60%);
+ padding: 70px 0px;
+    width: 100%;
+  
+    
+    #first {
+      margin: 0 1.5rem;
+
+      .grid {
+        width: 100%;
+        display: grid;
+        row-gap: 4.6rem;
+
+        img {
+          width: 100%;
+        }
+
+        h1 {
+          line-height: 1;
+          font-size: 3rem;
+          text-align: center;
+
+        }
+
+      }
+
+      h2 {
+        margin: 7rem 0rem 2.5rem;
+        font-size: 2.1rem;
+        font-weight: 300;
+        text-align: center;
+      }
+    }
+
+  }
+
+  @media (min-width:1364px) {
+    .first {
+
+      #first {
+        
+
+        .grid {
+          grid-template-columns: 1fr 1fr;
+          align-items: center !important;
+          direction: rtl;
+          margin-left: 4rem;
+          width: 1180px !important;
+
+          justify-content: center !important;
+
+          column-gap: 2rem !important;
+
+          img {
+            height: 488px;
+            object-fit: cover;
+          }
+
+          h1 {
+            font-size: 4.6rem !important;
+            padding: 0rem 0rem 0rem 3.1rem;
+            text-align:end;
+
+
+
+          }
+        }
+        h2 {
+          margin: 112px 127px 40px;
+          font-size: 2.2rem;
+          font-weight: 400;
+          max-width: 925px;
+        }
+      }
+    }
+  }
+}

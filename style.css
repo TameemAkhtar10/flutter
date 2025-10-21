@@ -1,0 +1,127 @@
+@font-face {
+  font-family: google;
+  src: url(./ProductSans-Regular.ttf);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: #fff;
+  font-family: google;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  z-index: 10000;
+  background-color: rgb(67, 60, 60);
+  width: 100%;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1.5rem;
+  background-color: whitesmoke;
+  font-size: 0.8rem;
+  height: 86px;
+  font-weight: 550;
+  width: 100%;
+}
+header nav .centre {
+  display: none;
+}
+header nav .centre a {
+  padding: 1.5rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+header nav .centre button {
+  background-color: #0468D7;
+  color: white;
+  border-radius: 2rem;
+  border: none;
+  padding: 0.8rem 1rem;
+  font-size: 1.2rem;
+}
+header nav .menu {
+  font-size: 1.2rem;
+}
+@media (min-width: 1364px) {
+  header nav {
+    padding: 0rem 3.2rem;
+  }
+  header nav .centre {
+    display: inline-block;
+  }
+  header nav .menu {
+    display: none;
+  }
+}
+
+main {
+  width: 100%;
+}
+main .first {
+  background: linear-gradient(35deg, #fcdde8, #f3fcff 60%);
+  padding: 70px 0px;
+  width: 100%;
+}
+main .first #first {
+  margin: 0 1.5rem;
+}
+main .first #first .grid {
+  width: 100%;
+  display: grid;
+  row-gap: 4.6rem;
+}
+main .first #first .grid img {
+  width: 100%;
+}
+main .first #first .grid h1 {
+  line-height: 1;
+  font-size: 3rem;
+  text-align: center;
+}
+main .first #first h2 {
+  margin: 7rem 0rem 2.5rem;
+  font-size: 2.1rem;
+  font-weight: 300;
+  text-align: center;
+}
+@media (min-width: 1364px) {
+  main .first #first .grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center !important;
+    direction: rtl;
+    margin-left: 4rem;
+    width: 1180px !important;
+    justify-content: center !important;
+    -moz-column-gap: 2rem !important;
+         column-gap: 2rem !important;
+  }
+  main .first #first .grid img {
+    height: 488px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .first #first .grid h1 {
+    font-size: 4.6rem !important;
+    padding: 0rem 0rem 0rem 3.1rem;
+    text-align: end;
+  }
+  main .first #first h2 {
+    margin: 112px 127px 40px;
+    font-size: 2.2rem;
+    font-weight: 400;
+    max-width: 925px;
+  }
+}/*# sourceMappingURL=style.css.map */
