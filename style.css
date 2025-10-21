@@ -30,6 +30,7 @@ header nav {
   height: 86px;
   font-weight: 550;
   width: 100%;
+  position: fixed;
 }
 header nav .centre {
   display: none;
@@ -67,6 +68,7 @@ header nav .menu {
 
 main {
   width: 100%;
+  padding-top: 86px;
 }
 main .first {
   background: linear-gradient(35deg, #fcdde8, #f3fcff 60%);
@@ -95,6 +97,75 @@ main .first #first h2 {
   font-weight: 300;
   text-align: center;
 }
+main .second {
+  padding: 70px 0px;
+}
+main .second #second {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3REM;
+}
+main .second #second .box1 {
+  padding: 1.5rem 3.1rem 0rem 0rem;
+  border-top: 5px solid #E8EAED;
+}
+main .second #second .box1 h3 {
+  font-size: 1.5rem;
+  padding: 0rem 0rem 1.5rem;
+  font-weight: 650;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+main .second #second .box1 p {
+  margin: 0rem 0rem 70px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+main .second #second .box1 img {
+  width: 100%;
+}
+main .second #second .box2 {
+  padding: 1.5rem 3.1rem 0rem 0rem;
+  border-top: 5px solid #E8EAED;
+}
+main .second #second .box2 h3 {
+  font-size: 1.5rem;
+  padding: 0rem 0rem 1.5rem;
+  font-weight: 650;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+main .second #second .box2 p {
+  margin: 0rem 0rem 70px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+main .second #second .box2 img {
+  width: 100%;
+}
+main .second #second .box3 {
+  padding: 1.5rem 3.1rem 0rem 0rem;
+  border-top: 5px solid #E8EAED;
+}
+main .second #second .box3 h3 {
+  font-size: 1.5rem;
+  padding: 0rem 0rem 1.5rem;
+  font-weight: 650;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+main .second #second .box3 p {
+  margin: 0rem 0rem 70px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+main .second #second .box3 img {
+  width: 100%;
+}
 @media (min-width: 1364px) {
   main .first #first .grid {
     grid-template-columns: 1fr 1fr;
@@ -117,9 +188,18 @@ main .first #first h2 {
     text-align: end;
   }
   main .first #first h2 {
-    margin: 112px 127px 40px;
+    margin: 112px 127px 40px 191px;
     font-size: 2.2rem;
     font-weight: 400;
     max-width: 925px;
+  }
+  main .second {
+    width: 90%;
+    margin: 0rem 1.5rem;
+  }
+  main .second #second {
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 5rem;
   }
 }/*# sourceMappingURL=style.css.map */
