@@ -50,7 +50,7 @@ header nav .centre button {
   border-radius: 2rem;
   border: none;
   padding: 0.8rem 1rem;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 header nav .menu {
   font-size: 1.2rem;
@@ -208,7 +208,7 @@ main .three #three .third .text p {
   color: #4a4a4a;
   max-width: 90%;
 }
-main .three #three .third .text button {
+main .three #three .third .text #community {
   padding: 0.7rem 2rem;
   font-size: 0.8rem;
   border-radius: 2rem;
@@ -265,10 +265,67 @@ main .three #three .third .text .btn1 {
     justify-content: center;
     padding-left: 5rem;
   }
-  main .three #three .third {
-    flex-direction: row-reverse;
+  main .three {
+    width: 100%;
   }
-  main .three #three .third img, main .three #three .third .text {
+  main .three #three {
+    margin: 0rem 4rem;
+  }
+  main .three #three .third {
+    padding: 80px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2rem;
+    height: 600px;
+  }
+  main .three #three .third img {
     width: 50%;
+    width: 500px;
+  }
+  main .three #three .third .text {
+    width: 50%;
+    text-transform: capitalize;
+    padding: 2rem;
+    margin-left: 1rem;
+  }
+  main .three #three .third .text h4 {
+    margin: 0px 0px 24px;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  main .three #three .third .text h3 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0px 0px 40px;
+    letter-spacing: 2px;
+    line-height: 1.1;
+  }
+  main .three #three .third .text p {
+    font-size: 20px;
+    margin: 0rem 0rem 2rem;
+    font-weight: 400;
+    color: #4a4a4a;
+    max-width: 80%;
+  }
+  main .three #three .third .text #community {
+    padding: 0.8rem 2.5rem;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    border: 1px solid #0468D7;
+    color: #0468D7;
+    font-weight: 500;
+    margin: 0 0 16px;
+  }
+  main .three #three .third .text .btn1 {
+    font-size: 0.9rem;
+    color: #000;
+    font-weight: 700;
+    padding: 0 0 16px;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    letter-spacing: 1.5px;
+    cursor: pointer;
   }
 }/*# sourceMappingURL=style.css.map */
