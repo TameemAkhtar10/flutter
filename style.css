@@ -229,6 +229,108 @@ main .three #three .third .text .btn1 {
   text-decoration: none;
   margin-left: 1.5rem;
 }
+main .four {
+  width: 100%;
+  background: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
+}
+main .four #four {
+  margin: 0rem 1.5rem;
+}
+main .four #four .fourth {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 0px;
+  gap: 1rem;
+}
+main .four #four .fourth img {
+  width: 100%;
+}
+main .four #four .fourth .text h4 {
+  font-size: 18px;
+  margin: 0 0 20px;
+  color: #4a4a4a;
+  line-height: 21px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+main .four #four .fourth .text h3 {
+  font-size: 2.9rem;
+  margin: 0 0 2rem;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 700;
+}
+main .four #four .fourth .text p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 1.5rem;
+  line-height: 25.2px;
+  color: #4a4a4a;
+}
+main .four #four .fourth .text #btn4 {
+  font-size: 0.8rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 8px 1.8rem;
+  background-color: #0468D7;
+  border-radius: 2rem;
+  border: none;
+  margin: 14px 0px;
+}
+main .five {
+  width: 100%;
+}
+main .five #five {
+  margin: 0rem 1.5rem;
+}
+main .five #five .fifth {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 0px;
+  gap: 1rem;
+}
+main .five #five .fifth img {
+  width: 100%;
+}
+main .five #five .fifth .text {
+  text-transform: capitalize;
+}
+main .five #five .fifth .text h4 {
+  font-size: 18px;
+  margin: 0 0 20px;
+  color: #4a4a4a;
+  line-height: 21px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+main .five #five .fifth .text h3 {
+  font-size: 2.9rem;
+  margin: 0 0 2rem;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 700;
+}
+main .five #five .fifth .text p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 1.5rem;
+  line-height: 25.2px;
+  color: #4a4a4a;
+}
+main .five #five .fifth .text #btn5 {
+  font-size: 0.8rem;
+  color: #0468D7;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 8px 1.8rem;
+  background-color: transparent;
+  border-radius: 2rem;
+  border: 1px solid #0468D7;
+  margin: 14px 0px;
+}
 @media (min-width: 1024px) {
   main .first #first .grid {
     grid-template-columns: 1fr 1fr;
@@ -328,116 +430,104 @@ main .three #three .third .text .btn1 {
     letter-spacing: 1.5px;
     cursor: pointer;
   }
-}
-@media (min-width: 1024px) and (min-width: 768px) and (max-width: 1023px) {
-  main header nav {
+  main .four {
+    width: 100%;
+  }
+  main .four #four {
+    margin: 0rem 4rem;
+  }
+  main .four #four .fourth {
+    padding: 80px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 600px;
+  }
+  main .four #four .fourth img {
+    width: 50%;
+  }
+  main .four #four .fourth .text {
+    width: 50%;
+    text-transform: capitalize;
     padding: 0rem 2rem;
   }
-  main header nav .centre {
-    display: none;
-    /* still hidden for tablet */
-  }
-  main header nav .menu {
-    display: inline-block;
-    font-size: 1.5rem;
-  }
-  main main .first {
-    padding: 50px 0px;
-  }
-  main main .first #first {
-    margin: 0 2rem;
-  }
-  main main .first #first .grid {
-    grid-template-columns: 1fr;
-    /* single column on tablet */
-    text-align: center;
-    row-gap: 3rem;
-  }
-  main main .first #first .grid img {
-    width: 90%;
-    margin: 0 auto;
-  }
-  main main .first #first .grid h1 {
-    font-size: 3.4rem;
-    line-height: 1.1;
-  }
-  main main .first #first h2 {
-    margin: 4rem auto 2rem;
-    font-size: 1.8rem;
-    max-width: 90%;
-  }
-  main main .second {
-    padding: 60px 0px;
-  }
-  main main .second #second {
-    flex-direction: column;
-    gap: 3rem;
-    margin: 0 2rem;
-  }
-  main main .second #second .box1,
-  main main .second #second .box2,
-  main main .second #second .box3 {
-    padding: 1rem 0;
-    border-top: 4px solid #E8EAED;
-  }
-  main main .second #second .box1 h3,
-  main main .second #second .box2 h3,
-  main main .second #second .box3 h3 {
+  main .four #four .fourth .text h4 {
+    margin: 0px 0px 24px;
     font-size: 1.3rem;
+    font-weight: 700;
   }
-  main main .second #second .box1 p,
-  main main .second #second .box2 p,
-  main main .second #second .box3 p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
-  main main .second #second .box1 img,
-  main main .second #second .box2 img,
-  main main .second #second .box3 img {
-    width: 100%;
-  }
-  main main .three {
-    width: 100%;
-  }
-  main main .three #three {
-    margin: 0rem 2rem;
-  }
-  main main .three #three .third {
-    padding: 60px 0px;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
-  main main .three #three .third img {
-    width: 80%;
-    max-width: 400px;
-  }
-  main main .three #three .third .text {
-    width: 100%;
-    text-align: center;
-    padding: 0rem 1rem;
-  }
-  main main .three #three .third .text h4 {
-    font-size: 1.1rem;
-    margin-bottom: 18px;
-  }
-  main main .three #three .third .text h3 {
-    font-size: 2.8rem;
-    margin-bottom: 28px;
+  main .four #four .fourth .text h3 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0px 0px 40px;
+    letter-spacing: 2px;
     line-height: 1.1;
   }
-  main main .three #three .third .text p {
-    font-size: 1rem;
-    max-width: 85%;
-    margin: 0 auto 1.5rem;
+  main .four #four .fourth .text p {
+    font-size: 20px;
+    margin: 0rem 0rem 2rem;
+    font-weight: 400;
+    color: #4a4a4a;
+    max-width: 80%;
   }
-  main main .three #three .third .text #community {
-    padding: 0.7rem 2rem;
-    font-size: 0.8rem;
+  main .four #four .fourth .text #btn4 {
+    padding: 0.8rem 2.5rem;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    border: 1px solid #0468D7;
+    color: white;
+    font-weight: 500;
+    margin: 0 0 16px;
   }
-  main main .three #three .third .text .btn1 {
-    font-size: 0.8rem;
-    margin-left: 0;
-    display: inline-block;
+  main .five {
+    width: 100%;
+  }
+  main .five #five {
+    margin-left: 1rem;
+  }
+  main .five #five .fifth {
+    padding: 80px 0px;
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 660px;
+  }
+  main .five #five .fifth img {
+    width: 472px;
+  }
+  main .five #five .fifth .text {
+    width: 50%;
+    text-transform: capitalize;
+    padding: 0rem 120px 0px 50px;
+  }
+  main .five #five .fifth .text h4 {
+    margin: 0px 0px 24px;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  main .five #five .fifth .text h3 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0px 0px 40px;
+    letter-spacing: 2px;
+    line-height: 1.1;
+  }
+  main .five #five .fifth .text p {
+    font-size: 20px;
+    margin: 0rem 0rem 2rem;
+    font-weight: 400;
+    color: #4a4a4a;
+    max-width: 80%;
+  }
+  main .five #five .fifth .text #btn5 {
+    padding: 0.8rem 2.5rem;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    border: 1px solid #0468D7;
+    color: #0468D7;
+    font-weight: 500;
+    margin: 0 0 16px;
   }
 }/*# sourceMappingURL=style.css.map */
