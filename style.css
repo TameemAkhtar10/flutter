@@ -32,6 +32,7 @@ header nav {
   font-weight: 550;
   width: 100%;
   position: fixed;
+  top: 0;
 }
 header nav .centre {
   display: none;
