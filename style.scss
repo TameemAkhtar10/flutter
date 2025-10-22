@@ -27,7 +27,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 1.5rem;
+   padding-left: 1.5rem !important;
+     padding-right: 1.5rem !important;
     background-color: whitesmoke;
     font-size: 0.8rem;
     height: 86px;
@@ -41,7 +42,7 @@ header {
       display: none;
 
       a {
-        padding: 1.5rem;
+        padding: 1.2rem;
         text-decoration: none;
         text-transform: capitalize;
         color: black;
@@ -61,13 +62,14 @@ header {
 
     .menu {
       font-size: 1.2rem;
+      padding-right: 1.5rem;
 
     }
   }
 
 
 
-  @media (min-width:1364px) {
+  @media (min-width:1024px) {
     nav {
       padding: 0rem 3.2rem;
 
@@ -86,7 +88,6 @@ header {
 main {
   width: 100%;
   padding-top: 86px;
-
   .first {
     background: linear-gradient(35deg, #fcdde8, #f3fcff 60%);
     padding: 70px 0px;
@@ -125,21 +126,22 @@ main {
   }
 
   .second {
-    padding: 70px 0px;
+    padding: 70px 0px !important;
 
     #second {
       width: 100%;
       display: flex;
       flex-direction: column;
-      gap: 3REM ;
-      margin: 0rem 1.5rem;
-      
+      gap: 3REM;
+      margin: 0rem 1.5rem ;
+
 
 
       .box1 {
-     
+
         padding: 1.5rem 3.1rem 0rem 0rem;
-        border-top:5px solid #E8EAED;
+        border-top: 5px solid #E8EAED;
+
         h3 {
           font-size: 1.5rem;
           padding: 0rem 0rem 1.5rem;
@@ -147,11 +149,12 @@ main {
           text-transform: capitalize;
           letter-spacing: 1px;
         }
+
         p {
           margin: 0rem 0rem 70px;
           font-size: 1.1rem;
           font-weight: 400;
-           letter-spacing: 1px;
+          letter-spacing: 1px;
         }
 
         img {
@@ -160,10 +163,12 @@ main {
 
 
       }
-       .box2 {
-       
+
+      .box2 {
+
         padding: 1.5rem 3.1rem 0rem 0rem;
-        border-top:5px solid #E8EAED;
+        border-top: 5px solid #E8EAED;
+
         h3 {
           font-size: 1.5rem;
           padding: 0rem 0rem 1.5rem;
@@ -171,11 +176,12 @@ main {
           text-transform: capitalize;
           letter-spacing: 1px;
         }
+
         p {
           margin: 0rem 0rem 70px;
-           font-weight: 400;
+          font-weight: 400;
           font-size: 1.1rem;
-          
+
           letter-spacing: 1px;
 
         }
@@ -186,10 +192,12 @@ main {
 
 
       }
-       .box3 {
-       
+
+      .box3 {
+
         padding: 1.5rem 3.1rem 0rem 0rem;
-        border-top:5px solid #E8EAED;
+        border-top: 5px solid #E8EAED;
+
         h3 {
           font-size: 1.5rem;
           padding: 0rem 0rem 1.5rem;
@@ -197,11 +205,12 @@ main {
           text-transform: capitalize;
           letter-spacing: 1px;
         }
+
         p {
           margin: 0rem 0rem 70px;
           font-size: 1.1rem;
-           font-weight: 400;
-           letter-spacing: 1px;
+          font-weight: 400;
+          letter-spacing: 1px;
         }
 
         img {
@@ -212,8 +221,81 @@ main {
       }
     }
   }
+  .three{
+    width: 100%;
 
-  @media (min-width:1364px) {
+
+    #three {
+     
+      margin: 0rem 1.5rem;
+      .third {
+        padding: 50px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        img {
+          width: 100%;
+        }
+        .text {
+          text-transform: capitalize;
+          h4 {
+            margin: 0px 0px 20px;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: rgb(74, 74, 74);
+          }
+          h3 {
+            font-size: 46px;
+            font-weight: 700;
+            margin: 0px 0px 32px;
+            letter-spacing: 1.7px;
+            line-height: 1;
+          }
+          p {
+            font-size: 18px;
+            margin: 0rem 0rem 1.5rem;
+            font-weight: 400;
+            color: #4a4a4a;
+            max-width: 90%;
+            
+          }
+          button {
+            padding:  0.7rem 2rem;
+            font-size: 0.8rem;
+            border-radius: 2rem;
+            border: 1px solid #0468D7;
+            color: #0468D7;
+            text-transform: capitalize;
+            font-weight: 500;
+            margin:  0 0 14px;
+          }
+          .btn1 {
+            font-size: 0.8rem;
+            color: #000000;
+            font-weight: 700;
+            padding:0 0 14px;
+            cursor: pointer;
+            line-height:21px ;
+            letter-spacing: 1.3px;
+            text-decoration: none;
+            margin-left: 1.5rem;
+          }
+          
+           
+        }
+      }
+
+
+    }
+  }
+  
+
+
+      
+
+  @media (min-width:1024px) {
     .first {
 
       #first {
@@ -253,15 +335,30 @@ main {
         }
       }
     }
+
     .second {
       width: 90%;
       margin: 0rem 1.5rem;
+
       #second {
         flex-direction: row;
         justify-content: center;
         padding-left: 5rem;
       }
     }
+  .three {
+
+    #three {
+
+
+      .third {
+  flex-direction: row-reverse;
+        img,.text {
+          width: 50%;
+        }
+      }
+    }
+  }
   }
 
 }
