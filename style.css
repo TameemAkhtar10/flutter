@@ -57,9 +57,9 @@ header nav .menu {
   font-size: 1.2rem;
   padding-right: 1.5rem;
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   header nav {
-    padding: 0rem 3.2rem;
+    padding: 0rem 3rem !important;
   }
   header nav .centre {
     display: inline-block;
@@ -332,7 +332,114 @@ main .five #five .fifth .text #btn5 {
   border: 1px solid #0468D7;
   margin: 14px 0px;
 }
-@media (min-width: 1024px) {
+main .six {
+  width: 100%;
+  background: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
+}
+main .six #six {
+  margin: 0rem 1.5rem;
+}
+main .six #six .sixth {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 0px;
+  gap: 2rem;
+}
+main .six #six .sixth img {
+  width: 100%;
+}
+main .six #six .sixth .text h4 {
+  font-size: 18px;
+  margin: 0 0 20px;
+  color: #4a4a4a;
+  line-height: 21px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+main .six #six .sixth .text h3 {
+  font-size: 2.9rem;
+  margin: 0 0 2rem;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 700;
+}
+main .six #six .sixth .text p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 1.5rem;
+  line-height: 25.2px;
+  color: #4a4a4a;
+}
+main .six #six .sixth .text #btn6 {
+  font-size: 0.8rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 8px 1.8rem;
+  background-color: #0468D7;
+  border-radius: 2rem;
+  border: none;
+  margin: 14px 0px;
+}
+main .seven {
+  width: 100%;
+  padding: 70px 0px;
+  text-transform: capitalize;
+}
+main .seven #seven {
+  margin: 0px 24px;
+  background-color: #042449;
+  border-radius: 3rem;
+  position: relative;
+}
+main .seven #seven .seventh {
+  position: relative;
+  z-index: 99;
+  padding: 96px 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+}
+main .seven #seven .seventh h1 {
+  font-size: 46px;
+  margin: 0 0 24px;
+}
+main .seven #seven .seventh p {
+  font-size: 18px;
+  margin: 0 0 32px;
+}
+main .seven #seven .seventh .btns {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .seven #seven .seventh .a1 {
+  margin: 0 0 8px;
+  padding: 7px 32px;
+  color: #042449;
+  background: #fff;
+  border-radius: 2rem;
+  border: 1px solid black;
+  text-decoration: none;
+  width: 106px;
+}
+main .seven #seven .seventh .a2 {
+  color: #fff;
+  text-decoration: none;
+}
+main .seven #seven img {
+  position: absolute;
+  top: 0;
+  width: 272px;
+  height: 504px;
+  border-bottom-right-radius: 3rem;
+  border-top-left-radius: 3rem;
+  z-index: 5;
+  border-top-right-radius: 3rem;
+}
+@media (min-width: 900px) {
   main .first #first .grid {
     grid-template-columns: 1fr 1fr;
     align-items: center !important;
@@ -530,5 +637,79 @@ main .five #five .fifth .text #btn5 {
     color: #0468D7;
     font-weight: 500;
     margin: 0 0 16px;
+  }
+  main .six {
+    width: 100%;
+    height: 583px;
+  }
+  main .six #six {
+    margin-left: 1rem;
+  }
+  main .six #six .sixth {
+    padding: 80px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 582px;
+  }
+  main .six #six .sixth img {
+    width: 368px;
+    height: 316px;
+    margin-left: 7rem;
+  }
+  main .six #six .sixth .text {
+    width: 482px;
+    text-transform: capitalize;
+    height: 477px;
+    margin-left: 9rem;
+  }
+  main .six #six .sixth .text h4 {
+    margin: 0px 0px 24px;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  main .six #six .sixth .text h3 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0px 0px 40px;
+    letter-spacing: 2px;
+    line-height: 1.1;
+  }
+  main .six #six .sixth .text p {
+    font-size: 20px;
+    margin: 0rem 0rem 2rem;
+    font-weight: 400;
+    color: #4a4a4a;
+    max-width: 80%;
+  }
+  main .six #six .sixth .text #btn6 {
+    padding: 0.8rem 2.5rem;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    border: 1px solid #0468D7;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 0 16px;
+  }
+  main .seven #seven {
+    margin: 0 100px;
+  }
+  main .seven #seven .seventh p {
+    font-size: 20px;
+    width: 40%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+  }
+  main .seven #seven .seventh .btns {
+    flex-direction: row;
+    align-items: center;
+  }
+  main .seven #seven img {
+    right: 0;
+    width: 452px;
+    border-top-left-radius: 0;
+    height: 407px;
   }
 }/*# sourceMappingURL=style.css.map */
