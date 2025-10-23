@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: google;
   src: url(./ProductSans-Regular.ttf);
@@ -696,9 +697,13 @@ main .seven #seven img {
   main .seven #seven {
     margin: 0 100px;
   }
+  main .seven #seven .seventh h1 {
+    font-size: 60px !important;
+    letter-spacing: 2px;
+  }
   main .seven #seven .seventh p {
     font-size: 20px;
-    width: 40%;
+    width: 45% !important;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 30px;
@@ -709,8 +714,98 @@ main .seven #seven img {
   }
   main .seven #seven img {
     right: 0;
-    width: 452px;
+    width: 45% !important;
     border-top-left-radius: 0;
-    height: 407px;
+    height: 100%;
+  }
+}
+
+/* =========================
+   💻 Laptop Screens (1366px–1920px)
+========================= */
+@media (min-width: 1366px) and (max-width: 1920px) {
+  nav {
+    padding: 0 5rem !important;
+  }
+  main .first #first .grid {
+    width: 1300px !important;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-column-gap: 3rem !important;
+         column-gap: 3rem !important;
+  }
+  .three #three,
+  .four #four,
+  .five #five,
+  .six #six,
+  .seven #seven {
+    margin: 0 6rem !important;
+  }
+  .three .text h3,
+  .four .text h3,
+  .five .text h3,
+  .six .text h3,
+  .seven .seventh h1 {
+    font-size: 64px !important;
+  }
+  .three .text p,
+  .four .text p,
+  .five .text p,
+  .six .text p,
+  .seven .seventh p {
+    font-size: 22px !important;
+  }
+  .six .sixth img {
+    width: 420px !important;
+    height: auto;
+    margin-left: 10rem !important;
+  }
+  .seven #seven img {
+    width: 42% !important;
+  }
+}
+/* =========================
+   🖥️ 4K / Ultra-Wide Screens (2560px+)
+========================= */
+@media (min-width: 2560px) {
+  html, body {
+    font-size: 20px;
+  }
+  nav {
+    padding: 0 8rem !important;
+  }
+  main .first #first .grid {
+    width: 1800px !important;
+    -moz-column-gap: 5rem !important;
+         column-gap: 5rem !important;
+  }
+  .three #three,
+  .four #four,
+  .five #five,
+  .six #six,
+  .seven #seven {
+    margin: 0 12rem !important;
+  }
+  .three .text h3,
+  .four .text h3,
+  .five .text h3,
+  .six .text h3,
+  .seven .seventh h1 {
+    font-size: 80px !important;
+  }
+  .three .text p,
+  .four .text p,
+  .five .text p,
+  .six .text p,
+  .seven .seventh p {
+    font-size: 26px !important;
+    line-height: 40px;
+  }
+  .six .sixth img {
+    width: 550px !important;
+    margin-left: 12rem !important;
+  }
+  .seven #seven img {
+    width: 40% !important;
   }
 }/*# sourceMappingURL=style.css.map */
