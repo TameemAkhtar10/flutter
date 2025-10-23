@@ -76,7 +76,7 @@ main {
 main .first {
   background: linear-gradient(35deg, #fcdde8, #f3fcff 60%);
   padding: 70px 0px;
-  width: 100vw;
+  width: 100%;
 }
 main .first #first {
   margin: 0 1.5rem;
@@ -101,7 +101,7 @@ main .first #first h2 {
   text-align: center;
 }
 main .second {
-  width: 100vw;
+  width: 100%;
   padding: 70px 0px !important;
 }
 main .second #second {
@@ -172,7 +172,7 @@ main .second #second .box3 img {
   width: 100%;
 }
 main .three {
-  width: 100vw;
+  width: 100%;
 }
 main .three #three {
   margin: 0rem 1.5rem;
@@ -232,7 +232,7 @@ main .three #three .third .text .btn1 {
   margin-left: 1.5rem;
 }
 main .four {
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
 }
 main .four #four {
@@ -282,7 +282,7 @@ main .four #four .fourth .text #btn4 {
   margin: 14px 0px;
 }
 main .five {
-  width: 100vw;
+  width: 100%;
 }
 main .five #five {
   margin: 0rem 1.5rem;
@@ -334,7 +334,7 @@ main .five #five .fifth .text #btn5 {
   margin: 14px 0px;
 }
 main .six {
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
 }
 main .six #six {
@@ -384,7 +384,7 @@ main .six #six .sixth .text #btn6 {
   margin: 14px 0px;
 }
 main .seven {
-  width: 100vw;
+  width: 100%;
   padding: 70px 0px;
   text-transform: capitalize;
 }

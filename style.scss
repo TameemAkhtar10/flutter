@@ -94,7 +94,7 @@ main {
   .first {
     background: linear-gradient(35deg, #fcdde8, #f3fcff 60%);
     padding: 70px 0px;
-    width: 100vw;
+   width: 100%;
 
     #first {
       margin: 0 1.5rem;
@@ -126,7 +126,7 @@ main {
   }
 
   .second {
-     width: 100vw;
+  width: 100%;
     padding: 70px 0px !important;
 
     #second {
@@ -224,8 +224,7 @@ main {
   }
 
   .three {
-     width: 100vw;
-
+     width: 100%;
 
     #three {
 
@@ -301,7 +300,7 @@ main {
   }
 
   .four {
-    width: 100vw;
+ width: 100%;
     background: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
 
     #four {
@@ -361,8 +360,7 @@ main {
   }
 
   .five {
-     width: 100vw;
-
+   width: 100%;
     #five {
       margin: 0rem 1.5rem;
 
@@ -423,7 +421,7 @@ main {
 
 
   .six {
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
 
 
@@ -485,7 +483,7 @@ main {
   }
 
   .seven {
-    width: 100vw;
+    width: 100%;
     padding: 70px 0px;
     text-transform: capitalize;
 
