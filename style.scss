@@ -72,8 +72,8 @@ header {
 
   @media (min-width:900px) {
     nav {
-      padding: 0rem 3rem  !important;
-     
+      padding: 0rem 3rem !important;
+
 
       .centre {
         display: inline-block;
@@ -94,8 +94,7 @@ main {
   .first {
     background: linear-gradient(35deg, #fcdde8, #f3fcff 60%);
     padding: 70px 0px;
-    width: 100%;
-
+    width: 100vw;
 
     #first {
       margin: 0 1.5rem;
@@ -115,7 +114,6 @@ main {
           text-align: center;
 
         }
-
       }
 
       h2 {
@@ -125,10 +123,10 @@ main {
         text-align: center;
       }
     }
-
   }
 
   .second {
+     width: 100vw;
     padding: 70px 0px !important;
 
     #second {
@@ -226,7 +224,7 @@ main {
   }
 
   .three {
-    width: 100%;
+     width: 100vw;
 
 
     #three {
@@ -303,7 +301,7 @@ main {
   }
 
   .four {
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
 
     #four {
@@ -363,7 +361,7 @@ main {
   }
 
   .five {
-    width: 100%;
+     width: 100vw;
 
     #five {
       margin: 0rem 1.5rem;
@@ -425,7 +423,7 @@ main {
 
 
   .six {
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
 
 
@@ -487,7 +485,7 @@ main {
   }
 
   .seven {
-    width: 100%;
+    width: 100vw;
     padding: 70px 0px;
     text-transform: capitalize;
 
@@ -506,7 +504,7 @@ main {
         padding: 96px 50px;
         display: flex;
         flex-direction: column;
-      
+
         text-align: left;
         color: white;
 
@@ -550,9 +548,9 @@ main {
         right: 0 !important;
         top: 0;
         width: 100%;
-        
-        height:100%; 
-        
+
+        height: 100%;
+
         border-bottom-right-radius: 3rem;
         border-top-left-radius: 3rem;
         z-index: 5;
@@ -562,21 +560,17 @@ main {
   }
 
 
+
   @media (min-width:900px) {
     .first {
-
       #first {
-
-
         .grid {
           grid-template-columns: 1fr 1fr;
           align-items: center !important;
           direction: rtl;
           margin-left: 4rem;
           width: 1180px !important;
-
           justify-content: center !important;
-
           column-gap: 2rem !important;
 
           img {
@@ -588,9 +582,6 @@ main {
             font-size: 4.6rem !important;
             padding: 0rem 0rem 0rem 3.1rem;
             text-align: end;
-
-
-
           }
         }
 
@@ -602,6 +593,8 @@ main {
         }
       }
     }
+
+
 
     .second {
       width: 90%;
@@ -892,6 +885,7 @@ main {
         }
       }
     }
+
     .seven {
 
       #seven {
@@ -903,6 +897,7 @@ main {
             font-size: 60px !important;
             letter-spacing: 2px;
           }
+
           p {
             font-size: 20px;
             width: 45% !important;
@@ -911,29 +906,28 @@ main {
             line-height: 30px;
           }
 
-  
+
           .btns {
             flex-direction: row;
             align-items: center;
           }
         }
+
         img {
           right: 0;
-           width: 45% !important;
+          width: 45% !important;
           border-top-left-radius: 0;
           height: 0100%;
         }
 
 
-        
+
       }
     }
 
   }
 }
-/* =========================
-   💻 Laptop Screens (1366px–1920px)
-========================= */
+
 @media (min-width: 1366px) and (max-width: 1920px) {
 
   nav {
@@ -982,12 +976,10 @@ main {
   }
 }
 
-/* =========================
-   🖥️ 4K / Ultra-Wide Screens (2560px+)
-========================= */
 @media (min-width: 2560px) {
 
-  html, body {
+  html,
+  body {
     font-size: 20px;
   }
 

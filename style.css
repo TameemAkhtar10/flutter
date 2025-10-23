@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: google;
   src: url(./ProductSans-Regular.ttf);
@@ -77,7 +76,7 @@ main {
 main .first {
   background: linear-gradient(35deg, #fcdde8, #f3fcff 60%);
   padding: 70px 0px;
-  width: 100%;
+  width: 100vw;
 }
 main .first #first {
   margin: 0 1.5rem;
@@ -102,6 +101,7 @@ main .first #first h2 {
   text-align: center;
 }
 main .second {
+  width: 100vw;
   padding: 70px 0px !important;
 }
 main .second #second {
@@ -172,7 +172,7 @@ main .second #second .box3 img {
   width: 100%;
 }
 main .three {
-  width: 100%;
+  width: 100vw;
 }
 main .three #three {
   margin: 0rem 1.5rem;
@@ -232,7 +232,7 @@ main .three #three .third .text .btn1 {
   margin-left: 1.5rem;
 }
 main .four {
-  width: 100%;
+  width: 100vw;
   background: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
 }
 main .four #four {
@@ -282,7 +282,7 @@ main .four #four .fourth .text #btn4 {
   margin: 14px 0px;
 }
 main .five {
-  width: 100%;
+  width: 100vw;
 }
 main .five #five {
   margin: 0rem 1.5rem;
@@ -334,7 +334,7 @@ main .five #five .fifth .text #btn5 {
   margin: 14px 0px;
 }
 main .six {
-  width: 100%;
+  width: 100vw;
   background: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
 }
 main .six #six {
@@ -384,7 +384,7 @@ main .six #six .sixth .text #btn6 {
   margin: 14px 0px;
 }
 main .seven {
-  width: 100%;
+  width: 100vw;
   padding: 70px 0px;
   text-transform: capitalize;
 }
@@ -720,9 +720,6 @@ main .seven #seven img {
   }
 }
 
-/* =========================
-   💻 Laptop Screens (1366px–1920px)
-========================= */
 @media (min-width: 1366px) and (max-width: 1920px) {
   nav {
     padding: 0 5rem !important;
@@ -764,11 +761,9 @@ main .seven #seven img {
     width: 42% !important;
   }
 }
-/* =========================
-   🖥️ 4K / Ultra-Wide Screens (2560px+)
-========================= */
 @media (min-width: 2560px) {
-  html, body {
+  html,
+  body {
     font-size: 20px;
   }
   nav {
