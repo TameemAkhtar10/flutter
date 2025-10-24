@@ -14,6 +14,7 @@ body {
   background-color: #fff;
   font-family: google;
   height: 100%;
+  overflow-x: hidden;
 }
 
 header {
@@ -26,13 +27,14 @@ header nav {
   justify-content: space-between;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background-color: whitesmoke;
+  background-color: white;
   font-size: 0.8rem;
   height: 86px;
   font-weight: 550;
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 99999;
 }
 header nav .centre {
   display: none;
@@ -432,8 +434,9 @@ main .seven #seven .seventh .a2 {
 }
 main .seven #seven img {
   position: absolute;
-  right: 0 !important;
+  right: 0;
   top: 0;
+  overflow-x: hidden;
   width: 100%;
   height: 100%;
   border-bottom-right-radius: 3rem;
@@ -802,5 +805,175 @@ main .seven #seven img {
   }
   .seven #seven img {
     width: 40% !important;
+  }
+}
+footer .footer {
+  padding: 70px 50px;
+  background-color: #f8f9fa;
+}
+footer .footer #footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 65px;
+  text-transform: capitalize;
+}
+footer .footer #footer .footer-logo img {
+  margin: 0px 0px 50px 0px;
+  height: 35px;
+  width: 144px;
+}
+footer .footer #footer .foot {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer #footer .foot ul {
+  list-style: none;
+  margin: 0px 0px 50px 16px;
+}
+footer .footer #footer .foot ul li {
+  margin: 0px 0px 8px;
+}
+footer .footer #footer .foot ul li a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+footer .footer #footer .foot ul li .first-black {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+footer .footer .social-icons {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 34px;
+  border-bottom: 2px solid #dadce0;
+}
+footer .footer .social-icons #social-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  font-size: 20px;
+  color: #4a4a4a;
+}
+footer .footer .footer-tray {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  color: #4a4a4a;
+  padding: 30px 0px 0px;
+}
+footer .footer .footer-tray .footer-first {
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 14px;
+  text-align: center;
+}
+footer .footer .footer-tray .footer-second ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .footer #footer {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  .footer #footer .foot {
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    margin-right: 5rem;
+    gap: 7rem;
+  }
+  .footer .social-icons {
+    justify-content: start !important;
+    font-size: 16px;
+  }
+  .footer .social-icons #socia-icons {
+    justify-content: space-between;
+  }
+  .footer .footer-tray {
+    flex-direction: row !important;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+  .footer .footer-tray .footer-first {
+    font-size: 16px !important;
+    width: 70%;
+    text-align: start !important;
+  }
+}
+@media (min-width: 1366px) {
+  .footer {
+    padding: 90px 120px;
+  }
+  .footer #footer {
+    padding: 0px 0px 80px;
+  }
+  .footer #footer .foot {
+    gap: 10rem;
+    margin-right: 8rem;
+  }
+  .footer #footer .foot ul li .first-black {
+    font-size: 20px;
+  }
+  .footer #footer .foot ul li a {
+    font-size: 16px;
+  }
+  .footer .social-icons {
+    padding: 0 0 40px;
+    font-size: 20px;
+  }
+  .footer .social-icons #social-icons {
+    gap: 1.5rem;
+  }
+  .footer .footer-tray {
+    gap: 6rem;
+  }
+  .footer .footer-tray .footer-first {
+    font-size: 17px;
+    width: 65%;
+  }
+  .footer .footer-tray .footer-second ul {
+    gap: 2rem;
+  }
+}
+@media (min-width: 2560px) {
+  .footer {
+    padding: 120px 200px;
+  }
+  .footer #footer {
+    padding: 0px 0px 100px;
+  }
+  .footer #footer .foot {
+    gap: 15rem;
+    margin-right: 12rem;
+  }
+  .footer #footer .foot ul li .first-black {
+    font-size: 26px;
+  }
+  .footer #footer .foot ul li a {
+    font-size: 20px;
+  }
+  .footer .social-icons {
+    padding: 0 0 60px;
+    font-size: 24px;
+  }
+  .footer .social-icons #social-icons {
+    gap: 2.5rem;
+  }
+  .footer .footer-tray {
+    gap: 10rem;
+  }
+  .footer .footer-tray .footer-first {
+    font-size: 20px;
+    width: 60%;
+  }
+  .footer .footer-tray .footer-second ul {
+    gap: 3rem;
   }
 }/*# sourceMappingURL=style.css.map */
